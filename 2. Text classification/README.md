@@ -1,15 +1,5 @@
 # Overview 
-### Step 1) Pre-processing 
-#### It removes stopwords. Why removing stopwords? some words occur often are not good representative and are not relevant. 
-
-### Step 2) Word embedding
-#### By using pre-trained model, it generates word embedding. 
-
-### Step 3) Build single graph
-#### To build a graph, words are nodes and weights between nodes are the edges. 
-
-### Step 4) Sample subgraph
-#### It makes partitions of single graph and trains the model. 
-
-### Step 5) Aggregate global parameters 
-#### After each training of subgraph, it updates global parameters for classifier. 
+## Approach 1) 
+#### - Instaed of aggregating features from all neighbors, it aggregates features from sample nodes. 
+#### - Process
+##### 1) Some words occur often are not good representative so it removes stopwords. 2) By using pre-trained embedding model, it generates word features. 3) It builds single graph with words as nodes and weights as edges. 4) During training CNNs, it aggregates features from sample nodes. 5) After training, it uses softmax classifier. 
