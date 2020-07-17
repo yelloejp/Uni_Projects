@@ -11,3 +11,7 @@ A company installed sensors in a city to collect temperature data but the sensor
 ## 2. Text classifcation
 
 One of big issues in natual language problems is to handle large scale datasets. Several approaches have been introduced to solve text classification problem but have not tried large scale datasets. The goal is to build graph-based text classification model which can cope with large scale datasets. 
+
+## 3. Image classifcation
+
+Computer vision consists of different problem such as image classification, segmentation and object detection. Among those, image classification can be considered as the fundamental problem. The goal is to apply different ConvNet with different image sets. 
