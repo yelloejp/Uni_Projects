@@ -15,3 +15,7 @@ One of big issues in natual language problems is to handle large scale datasets.
 ## 3. Image classifcation
 
 Computer vision consists of different problem such as image classification, segmentation and object detection. Among those, image classification can be considered as the fundamental problem. The goal is to apply different ConvNet with different image sets. 
+
+## 4. Word embeddings
+
+Although many word embedding methods have been introduced, there is no grounded standard method to evaluate abilities of word embeddings. By evaluating popular word embedding methods, I'd like to focus on the abilities of word embedings. 
