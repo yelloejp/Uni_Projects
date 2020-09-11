@@ -1,7 +1,3 @@
-'''
-emsemble smaller size of graphs : averaging? voting? 
-Accuracy is around 85%....Voting is 55%
-'''
 from __future__ import division
 from __future__ import print_function
 from sklearn import metrics
