@@ -11,4 +11,5 @@
 #### - Process
 ##### 1) Some words occur often are not good representative so it removes stopwords. 2) By using pre-trained embedding model, it generates word features. 3) It builds several graphs which are similar 4) After training each graph separately, it ensembles the results. 
 ![sdf1](https://user-images.githubusercontent.com/45250729/92897046-2a5a2080-f41d-11ea-9942-cfaa41fe067d.jpg)
+![result](https://user-images.githubusercontent.com/45250729/92899430-13b4c900-f41f-11ea-9481-a77b34d5ca94.jpg)
 
