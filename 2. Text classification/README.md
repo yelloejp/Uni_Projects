@@ -7,6 +7,6 @@
 ##### Reference : "Graph Convolutional Networks for Text Classification. Yao et al. AAAI2019." 
 
 ## Approach 2) Subgraph aggregation
-#### - Instaed of training entire single graph, it splits the graph into several subgraphs. 
+#### - Instaed of training entire single graph, it generate several smaller graphs from a corpus. 
 #### - Process
-##### 1) Some words occur often are not good representative so it removes stopwords. 2) By using pre-trained embedding model, it generates word features. 3) It builds single graph with words as nodes and weights as edges. 4) It splits the graph into N number of subgraphs. 5) During training, it aggregates features forwarding all subgraphs. 6) After training, it uses softmax classifier. 
+##### 1) Some words occur often are not good representative so it removes stopwords. 2) By using pre-trained embedding model, it generates word features. 3) It builds several graphs which are similar 4) After training each graph seperately, it ensembles the results. 
