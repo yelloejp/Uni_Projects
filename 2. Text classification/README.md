@@ -10,3 +10,5 @@
 #### - Instaed of training entire single graph, it generate several smaller graphs from a corpus. 
 #### - Process
 ##### 1) Some words occur often are not good representative so it removes stopwords. 2) By using pre-trained embedding model, it generates word features. 3) It builds several graphs which are similar 4) After training each graph separately, it ensembles the results. 
+![sdf1](https://user-images.githubusercontent.com/45250729/92897046-2a5a2080-f41d-11ea-9942-cfaa41fe067d.jpg)
+
