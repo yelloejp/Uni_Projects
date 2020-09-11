@@ -9,4 +9,4 @@
 ## Approach 2) Subgraph aggregation
 #### - Instaed of training entire single graph, it generate several smaller graphs from a corpus. 
 #### - Process
-##### 1) Some words occur often are not good representative so it removes stopwords. 2) By using pre-trained embedding model, it generates word features. 3) It builds several graphs which are similar 4) After training each graph seperately, it ensembles the results. 
+##### 1) Some words occur often are not good representative so it removes stopwords. 2) By using pre-trained embedding model, it generates word features. 3) It builds several graphs which are similar 4) After training each graph separately, it ensembles the results. 
