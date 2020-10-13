@@ -19,3 +19,6 @@ Computer vision consists of different problem such as image classification, segm
 ## 4. Word embeddings
 
 Although many word embedding methods have been introduced, there is no grounded standard method to evaluate abilities of word embeddings. By evaluating popular word embedding methods, I'd like to focus on the abilities of word embedings. 
+
+## 5. Prediction on Vote or Not? 
+Depending on individual perspectives, it predicts whether the individual votes or not. The dataset has following information: age group, education, gender, race, religion, etc. 
