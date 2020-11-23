@@ -23,3 +23,7 @@ Although many word embedding methods have been introduced, there is no grounded 
 ## 5. Human behavior classification 
 
 Depending on individual perspectives, it predicts whether the individual votes or not. The dataset has following information: age group, education, gender, race, religion, etc. 
+
+## 6. Time series motion classification 
+
+For time series problems, many RNN based methods have been developed. But, transfering time series models from RNNs to CNNs outperforms RNNs based models. The dataset was collected by 10 people and has 3 labels:crouching, running and walking. Here compares time series results in Vanilar RNN, FCN(Fully Convolution Networks) and ResNets.
