@@ -24,7 +24,3 @@ Although many word embedding methods have been introduced, there is no grounded 
 
 Depending on individual perspectives, it predicts whether the individual votes or not. The dataset has following information: age group, education, gender, race, religion, etc. 
 
-## 6. Author classification 
-
-Based on Graph-based approach, it predicts a label of a document. 
-
