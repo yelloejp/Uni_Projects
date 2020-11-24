@@ -24,3 +24,4 @@ Approach 3) Layer level stochastic aggregation
 
 Approach 4) GraphSaint with different samplers and aggregators 
 - GraphSaint is able to handle large scale graphs by sampling subgraphs for each minibatch iteration. However, it covers only 4 different sampling methods and didn't consider the powers of different aggregators which GraphSAGE considered. Here experiments large datasets with different aggregators and samplers. 
+![image](https://user-images.githubusercontent.com/45250729/100094881-fa39ef80-2e59-11eb-8a52-f70548b184aa.png)
