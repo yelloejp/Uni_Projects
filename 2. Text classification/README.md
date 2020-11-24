@@ -5,7 +5,7 @@ Key: Graph-based, Pytorch-geometric, nltk, word embeddings, GraphSAGE, GraphSAIN
 Approach 1) Stochastic aggregation
 - Instead of aggregating features from all neighbors, it aggregates features from sample nodes. 
 - After preprocessing(removing stopwords and less frequent words), it encodes words into pre-trained embeddings as node features. Then, it builds single graph with words and documents as nodes and weights as edges. 
-![StochasticAggregation](https://user-images.githubusercontent.com/45250729/85316673-697f7200-b4bd-11ea-9aa9-f42b7c41005e.png)
+![image](https://user-images.githubusercontent.com/45250729/100066340-40c92300-2e35-11eb-879c-4957dc4a3035.png)
 
 Approach 2) Ensemble aggregation 
 - Instead of training entire single graph, it generates several smaller graphs from a corpus. Preprocessing is same with Approach 1. But, it ensembles several models after training each model. 
