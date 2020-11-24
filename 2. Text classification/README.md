@@ -10,7 +10,7 @@ Approach 1) Stochastic aggregation
 Approach 2) Ensemble aggregation 
 - Instead of training entire single graph, it generates several smaller graphs from a corpus. Preprocessing is same with Approach 1. But, it ensembles several models after training each model. 
 ![image](https://user-images.githubusercontent.com/45250729/100066465-6ce4a400-2e35-11eb-9764-f63daa9ce7d0.png)
-![result](https://user-images.githubusercontent.com/45250729/92899430-13b4c900-f41f-11ea-9481-a77b34d5ca94.jpg)
+![image](https://user-images.githubusercontent.com/45250729/100066777-c220b580-2e35-11eb-9fb4-f06da9a5875a.png)
 
 Approach 3) Layer level stochastic aggregation 
 - Approach 1 and 2 have word and document nodes in single or several graphs. To compress the graph, here uses only documents as nodes. In addtion, it feeds randomly sampled neighbors to aggregate features in CNNs. 
