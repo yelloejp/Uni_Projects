@@ -9,7 +9,7 @@ Approach 1) Stochastic aggregation
 
 Approach 2) Ensemble aggregation 
 - Instead of training entire single graph, it generates several smaller graphs from a corpus. Preprocessing is same with Approach 1. But, it ensembles several models after training each model. 
-![sdf1](https://user-images.githubusercontent.com/45250729/92897046-2a5a2080-f41d-11ea-9942-cfaa41fe067d.jpg)
+![image](https://user-images.githubusercontent.com/45250729/100066465-6ce4a400-2e35-11eb-9764-f63daa9ce7d0.png)
 ![result](https://user-images.githubusercontent.com/45250729/92899430-13b4c900-f41f-11ea-9481-a77b34d5ca94.jpg)
 
 Approach 3) Layer level stochastic aggregation 
